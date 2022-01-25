@@ -1,6 +1,6 @@
 {
   "name": "monaco-diff",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Text diff library exported from monaco-editor-core, which is core of VS Code.",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/inokawa/monaco-editor-node.git"
+    "url": "git+https://github.com/inokawa/monaco-diff.git"
   },
   "keywords": [
     "monaco",
@@ -42,7 +42,7 @@
   "author": "inokawa <stratoooo-taster@yahoo.co.jp> (https://github.com/inokawa/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/inokawa/monaco-editor-node/issues"
+    "url": "https://github.com/inokawa/monaco-diff/issues"
   },
-  "homepage": "https://github.com/inokawa/monaco-editor-node#readme"
+  "homepage": "https://github.com/inokawa/monaco-diff#readme"
 }
