@@ -11,7 +11,7 @@ export type Opts = {
 
 // https://microsoft.github.io/monaco-editor/api/interfaces/monaco.editor.ILineChange.html
 export type ILineChange = {
-  readonly charChanges: ICharChange[];
+  readonly charChanges?: ICharChange[];
   readonly modifiedEndLineNumber: number;
   readonly modifiedStartLineNumber: number;
   readonly originalEndLineNumber: number;
