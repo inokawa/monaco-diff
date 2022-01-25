@@ -1,6 +1,6 @@
 {
   "name": "monaco-diff",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Text diff library exported from monaco-editor-core, which is core of VS Code.",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
