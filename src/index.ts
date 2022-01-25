@@ -39,6 +39,7 @@ export default (
     shouldComputeCharChanges: true,
     shouldPostProcessCharChanges: true,
     shouldIgnoreTrimWhitespace: true,
+    shouldMakePrettyDiff: true,
     maxComputationTime: 5000,
     ...opts,
   }).computeDiff().changes;
