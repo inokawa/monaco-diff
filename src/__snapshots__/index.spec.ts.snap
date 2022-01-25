@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`computeDiff multiline-1 1`] = `
+Array [
+  LineChange {
+    "charChanges": Array [
+      CharChange {
+        "modifiedEndColumn": 12,
+        "modifiedEndLineNumber": 1,
+        "modifiedStartColumn": 11,
+        "modifiedStartLineNumber": 1,
+        "originalEndColumn": 12,
+        "originalEndLineNumber": 1,
+        "originalStartColumn": 11,
+        "originalStartLineNumber": 1,
+      },
+    ],
+    "modifiedEndLineNumber": 1,
+    "modifiedStartLineNumber": 1,
+    "originalEndLineNumber": 1,
+    "originalStartLineNumber": 1,
+  },
+  LineChange {
+    "charChanges": Array [
+      CharChange {
+        "modifiedEndColumn": 18,
+        "modifiedEndLineNumber": 5,
+        "modifiedStartColumn": 11,
+        "modifiedStartLineNumber": 5,
+        "originalEndColumn": 15,
+        "originalEndLineNumber": 5,
+        "originalStartColumn": 11,
+        "originalStartLineNumber": 5,
+      },
+    ],
+    "modifiedEndLineNumber": 5,
+    "modifiedStartLineNumber": 5,
+    "originalEndLineNumber": 5,
+    "originalStartLineNumber": 5,
+  },
+]
+`;
+
+exports[`computeDiff multiline-2 1`] = `
+Array [
+  LineChange {
+    "charChanges": undefined,
+    "modifiedEndLineNumber": 0,
+    "modifiedStartLineNumber": 0,
+    "originalEndLineNumber": 1,
+    "originalStartLineNumber": 1,
+  },
+  LineChange {
+    "charChanges": Array [
+      CharChange {
+        "modifiedEndColumn": 5,
+        "modifiedEndLineNumber": 3,
+        "modifiedStartColumn": 4,
+        "modifiedStartLineNumber": 2,
+        "originalEndColumn": 5,
+        "originalEndLineNumber": 3,
+        "originalStartColumn": 4,
+        "originalStartLineNumber": 3,
+      },
+      CharChange {
+        "modifiedEndColumn": 34,
+        "modifiedEndLineNumber": 5,
+        "modifiedStartColumn": 15,
+        "modifiedStartLineNumber": 4,
+        "originalEndColumn": 0,
+        "originalEndLineNumber": 0,
+        "originalStartColumn": 0,
+        "originalStartLineNumber": 0,
+      },
+    ],
+    "modifiedEndLineNumber": 5,
+    "modifiedStartLineNumber": 2,
+    "originalEndLineNumber": 5,
+    "originalStartLineNumber": 3,
+  },
+]
+`;
+
+exports[`computeDiff singleline-1 1`] = `
+Array [
+  LineChange {
+    "charChanges": Array [
+      CharChange {
+        "modifiedEndColumn": 7,
+        "modifiedEndLineNumber": 1,
+        "modifiedStartColumn": 3,
+        "modifiedStartLineNumber": 1,
+        "originalEndColumn": 8,
+        "originalEndLineNumber": 1,
+        "originalStartColumn": 3,
+        "originalStartLineNumber": 1,
+      },
+      CharChange {
+        "modifiedEndColumn": 14,
+        "modifiedEndLineNumber": 1,
+        "modifiedStartColumn": 10,
+        "modifiedStartLineNumber": 1,
+        "originalEndColumn": 12,
+        "originalEndLineNumber": 1,
+        "originalStartColumn": 11,
+        "originalStartLineNumber": 1,
+      },
+    ],
+    "modifiedEndLineNumber": 1,
+    "modifiedStartLineNumber": 1,
+    "originalEndLineNumber": 1,
+    "originalStartLineNumber": 1,
+  },
+]
+`;
