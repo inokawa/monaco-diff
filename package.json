@@ -11,9 +11,8 @@
   "scripts": {
     "build": "rollup -c",
     "tsc": "tsc -p . --noEmit",
-    "tsc:d": "tsc -p . --outDir lib -d --emitDeclarationOnly",
     "test": "jest",
-    "prepublishOnly": "rimraf lib && npm run build && npm run tsc:d"
+    "prepublishOnly": "rimraf lib && npm run build"
   },
   "devDependencies": {
     "@babel/core": "7.16.12",
