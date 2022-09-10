@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`computeDiff multiline-1 1`] = `
-Array [
+[
   LineChange {
-    "charChanges": Array [
+    "charChanges": [
       CharChange {
         "modifiedEndColumn": 12,
         "modifiedEndLineNumber": 1,
@@ -21,7 +21,7 @@ Array [
     "originalStartLineNumber": 1,
   },
   LineChange {
-    "charChanges": Array [
+    "charChanges": [
       CharChange {
         "modifiedEndColumn": 18,
         "modifiedEndLineNumber": 5,
@@ -42,7 +42,7 @@ Array [
 `;
 
 exports[`computeDiff multiline-2 1`] = `
-Array [
+[
   LineChange {
     "charChanges": undefined,
     "modifiedEndLineNumber": 0,
@@ -51,7 +51,7 @@ Array [
     "originalStartLineNumber": 1,
   },
   LineChange {
-    "charChanges": Array [
+    "charChanges": [
       CharChange {
         "modifiedEndColumn": 5,
         "modifiedEndLineNumber": 3,
@@ -82,9 +82,9 @@ Array [
 `;
 
 exports[`computeDiff singleline-1 1`] = `
-Array [
+[
   LineChange {
-    "charChanges": Array [
+    "charChanges": [
       CharChange {
         "modifiedEndColumn": 7,
         "modifiedEndLineNumber": 1,
