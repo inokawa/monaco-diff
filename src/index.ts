@@ -34,7 +34,7 @@ export const diff = (
   }).computeDiff().changes;
 };
 
-interface LinesDiffOpts {
+export interface LinesDiffOpts {
   ignoreTrimWhitespace?: boolean;
   maxComputationTimeMs?: number;
 }
