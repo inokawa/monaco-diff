@@ -13,11 +13,18 @@ npm install monaco-diff
 
 ## Usage
 
-```js
-import diff from "monaco-diff";
+```ts
+import { diff, linesDiff } from "monaco-diff";
 
 console.log(
   diff(
+    "just some text\n\nHello World\n\nSome more text".split("\n"),
+    "just some Text\n\nHello World\n\nSome more changes".split("\n")
+  )
+);
+
+console.log(
+  linesDiff(
     "just some text\n\nHello World\n\nSome more text".split("\n"),
     "just some Text\n\nHello World\n\nSome more changes".split("\n")
   )
