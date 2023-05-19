@@ -1,7 +1,7 @@
 import type { editor } from "monaco-editor-core";
 import {
   DiffComputer,
-  SmartLinesDiffComputer as LinesDiffComputer,
+  SmartLinesDiffComputer,
   // @ts-expect-error no type definition
 } from "monaco-editor-core/esm/vs/editor/common/diff/smartLinesDiffComputer.js";
 // @ts-expect-error no type definition
@@ -44,11 +44,15 @@ export const legacyLinesDiff = (
   modifiedLines: string[],
   opts: LinesDiffOpts = {}
 ): LineRangeMapping[] => {
-  return new LinesDiffComputer().computeDiff(originalLines, modifiedLines, {
-    ignoreTrimWhitespace: false,
-    maxComputationTimeMs: 1000,
-    ...opts,
-  }).changes;
+  return new SmartLinesDiffComputer().computeDiff(
+    originalLines,
+    modifiedLines,
+    {
+      ignoreTrimWhitespace: false,
+      maxComputationTimeMs: 1000,
+      ...opts,
+    }
+  ).changes;
 };
 
 export const linesDiff = (
