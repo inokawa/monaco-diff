@@ -1,5 +1,202 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`compute legacy line diff multiline-1 1`] = `
+[
+  LineRangeMapping {
+    "innerChanges": [
+      RangeMapping {
+        "modifiedRange": [Circular],
+        "originalRange": [Circular],
+      },
+    ],
+    "modifiedRange": LineRange {
+      "endLineNumberExclusive": 2,
+      "startLineNumber": 1,
+    },
+    "originalRange": LineRange {
+      "endLineNumberExclusive": 2,
+      "startLineNumber": 1,
+    },
+  },
+  LineRangeMapping {
+    "innerChanges": [
+      RangeMapping {
+        "modifiedRange": [Circular],
+        "originalRange": [Circular],
+      },
+    ],
+    "modifiedRange": LineRange {
+      "endLineNumberExclusive": 6,
+      "startLineNumber": 5,
+    },
+    "originalRange": LineRange {
+      "endLineNumberExclusive": 6,
+      "startLineNumber": 5,
+    },
+  },
+]
+`;
+
+exports[`compute legacy line diff multiline-2 1`] = `
+[
+  LineRangeMapping {
+    "innerChanges": undefined,
+    "modifiedRange": LineRange {
+      "endLineNumberExclusive": 1,
+      "startLineNumber": 1,
+    },
+    "originalRange": LineRange {
+      "endLineNumberExclusive": 2,
+      "startLineNumber": 1,
+    },
+  },
+  LineRangeMapping {
+    "innerChanges": [
+      RangeMapping {
+        "modifiedRange": [Circular],
+        "originalRange": [Circular],
+      },
+      RangeMapping {
+        "modifiedRange": [Circular],
+        "originalRange": [Circular],
+      },
+    ],
+    "modifiedRange": LineRange {
+      "endLineNumberExclusive": 6,
+      "startLineNumber": 2,
+    },
+    "originalRange": LineRange {
+      "endLineNumberExclusive": 6,
+      "startLineNumber": 3,
+    },
+  },
+]
+`;
+
+exports[`compute legacy line diff singleline-1 1`] = `
+[
+  LineRangeMapping {
+    "innerChanges": [
+      RangeMapping {
+        "modifiedRange": [Circular],
+        "originalRange": [Circular],
+      },
+      RangeMapping {
+        "modifiedRange": [Circular],
+        "originalRange": [Circular],
+      },
+    ],
+    "modifiedRange": LineRange {
+      "endLineNumberExclusive": 2,
+      "startLineNumber": 1,
+    },
+    "originalRange": LineRange {
+      "endLineNumberExclusive": 2,
+      "startLineNumber": 1,
+    },
+  },
+]
+`;
+
+exports[`compute line diff multiline-1 1`] = `
+[
+  LineRangeMapping {
+    "innerChanges": [
+      RangeMapping {
+        "modifiedRange": [Circular],
+        "originalRange": [Circular],
+      },
+    ],
+    "modifiedRange": LineRange {
+      "endLineNumberExclusive": 2,
+      "startLineNumber": 1,
+    },
+    "originalRange": LineRange {
+      "endLineNumberExclusive": 2,
+      "startLineNumber": 1,
+    },
+  },
+  LineRangeMapping {
+    "innerChanges": [
+      RangeMapping {
+        "modifiedRange": [Circular],
+        "originalRange": [Circular],
+      },
+    ],
+    "modifiedRange": LineRange {
+      "endLineNumberExclusive": 6,
+      "startLineNumber": 5,
+    },
+    "originalRange": LineRange {
+      "endLineNumberExclusive": 6,
+      "startLineNumber": 5,
+    },
+  },
+]
+`;
+
+exports[`compute line diff multiline-2 1`] = `
+[
+  LineRangeMapping {
+    "innerChanges": [
+      RangeMapping {
+        "modifiedRange": [Circular],
+        "originalRange": [Circular],
+      },
+    ],
+    "modifiedRange": LineRange {
+      "endLineNumberExclusive": 1,
+      "startLineNumber": 1,
+    },
+    "originalRange": LineRange {
+      "endLineNumberExclusive": 2,
+      "startLineNumber": 1,
+    },
+  },
+  LineRangeMapping {
+    "innerChanges": [
+      RangeMapping {
+        "modifiedRange": [Circular],
+        "originalRange": [Circular],
+      },
+      RangeMapping {
+        "modifiedRange": [Circular],
+        "originalRange": [Circular],
+      },
+    ],
+    "modifiedRange": LineRange {
+      "endLineNumberExclusive": 6,
+      "startLineNumber": 2,
+    },
+    "originalRange": LineRange {
+      "endLineNumberExclusive": 6,
+      "startLineNumber": 3,
+    },
+  },
+]
+`;
+
+exports[`compute line diff singleline-1 1`] = `
+[
+  LineRangeMapping {
+    "innerChanges": [
+      RangeMapping {
+        "modifiedRange": [Circular],
+        "originalRange": [Circular],
+      },
+    ],
+    "modifiedRange": LineRange {
+      "endLineNumberExclusive": 2,
+      "startLineNumber": 1,
+    },
+    "originalRange": LineRange {
+      "endLineNumberExclusive": 2,
+      "startLineNumber": 1,
+    },
+  },
+]
+`;
+
 exports[`computeDiff multiline-1 1`] = `
 [
   LineChange {
